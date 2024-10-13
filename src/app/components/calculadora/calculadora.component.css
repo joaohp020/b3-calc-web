@@ -1,0 +1,90 @@
+.container {
+  /* width: 100vw !important; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  width: 350px;
+  box-shadow: -1px 0 9px 4px rgba(59, 58, 59, .5);
+  border-radius: 50px;
+  width: 150px;
+  background: linear-gradient(to top,#00b0eb,#00b0eb);
+  color: #fff;
+  margin: 0px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: nowrap;
+  flex-flow: nowrap;
+  font: bold 12px arial, sans-serif;
+  /* border: 1px solid #3896bc; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 999 !important;
+}
+
+.calculadora {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 50%;
+  background-color: #003475;
+  height: 170px;
+  border-radius: 15px;
+  padding: 0 20px;
+  margin: 1.5rem 0 0 0;
+}
+
+.calcular-components {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.seletor {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.seletor label {
+  font: bold 12px arial,sans-serif;
+  /* font-size: 15px; */
+  color: #fff;
+  margin: 0 0 5px 3px;
+}
+
+.seletor input {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 130px;
+  height: 41px;
+  font-size: 12px;
+  padding: 0 10px 0 10px;
+  /* margin: 3px 0 0 0; */
+}
+
+.seletor input:focus-visible {
+  outline: none !important;
+}
+
+.button-calcular {
+  width: 150px;
+  height: 41px;
+  background-color: #00b0eb;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  margin: 15px 0 0 0;
+}
+
+.example-form-field {
+  margin-right: 20px;
+}
