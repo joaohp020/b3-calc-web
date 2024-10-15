@@ -1,25 +1,25 @@
 <div class="container">
-  <div class="titulo">
+  <div class="calculo">
+    <div class="titulo">
       <h4>CDB</h4>
-  </div>
-
-  <form class="calculadora">
-    <div class="calcular-components">
-      <div class="seletor">
-        <label>Data Inicial:</label>
-        <input type="text" autocomplete="off" value="01/01/2024">
-      </div>
-      <div class="seletor">
-        <label>Data Final:</label>
-        <input type="text" autocomplete="off" value="12/10/2024">
-      </div>
-      <div class="seletor">
-        <label>Valor:</label>
-        <input type="text" autocomplete="off" value="R$ 100,00">
-      </div>
     </div>
 
-    <button type="button" class="button-calcular">CALCULAR</button>
-  </form>
+    <form [formGroup]="calculadoraForm" (ngSubmit)="calcular()" class="calculadora">
+      <div class="calcular-components">
+        <div class="seletor">
+          <label>Data Inicial:</label>
+          <input type="text" formControlName="dataInicial" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="seletor">
+          <label>Data Final:</label>
+          <input type="text" formControlName="dataFinal" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="seletor">
+          <label>Valor Inicial:</label>
+          <input id="valor" type="text" formControlName="valorInicial" placeholder="R$ 100,00">
+        </div>
+      </div>
+      <button type="submit" class="button-calcular" [disabled]="calculadoraForm.invalid">CALCULAR</button>
+    </form>
+  </div>
 </div>
-
