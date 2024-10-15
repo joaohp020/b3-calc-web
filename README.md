@@ -1,27 +1,27 @@
 # B3 CALC
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+Este é um projeto Angular desenvolvido para habilidade para implementação de soluções fundamentadas pelos princípios do SOLID, Testes unitários e performance...
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de executar o projeto, verifique se você tem o seguinte instalado:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) (v14 ou superior)
+- [Angular CLI](https://angular.io/cli) (v12 ou superior)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+1. Clone o repositório:
+   
+   git clone https://github.com/joaohp020/b3-calc-web.git
+   cd seu_repositorio
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Instale as dependências:
 
-## Running unit tests
+  npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Execução
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Para iniciar o servidor de desenvolvimento, execute:
+  
+  ng serve
