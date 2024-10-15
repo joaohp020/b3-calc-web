@@ -1,4 +1,4 @@
-# B3 CALC
+# B3 CALC - WEB
 
 Este é um projeto Angular desenvolvido para validar habilidade para implementação de soluções fundamentadas pelos princípios do SOLID, Testes unitários e performance...
 
