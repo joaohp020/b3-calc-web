@@ -5,9 +5,9 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class CalculadoraService {
 
-  private apiUrl = 'https://localhost:7298/api/cdb/calcular'; // Atualize a URL da sua API
+export class CalculadoraService {
+  private apiUrl = 'https://localhost:7298/api/cdb/calcular';
 
   constructor(private http: HttpClient) {}
 
